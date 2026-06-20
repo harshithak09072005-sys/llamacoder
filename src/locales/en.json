@@ -1,0 +1,110 @@
+{
+  "app": {
+    "title": "CropGuard AI",
+    "subtitle": "Detect Plant Diseases Naturally",
+    "description": "Upload a photo of your plant and get instant organic solutions with recovery timeline"
+  },
+  "upload": {
+    "title": "Upload Plant Image",
+    "dragText": "Drag and drop your plant image here, or click to browse",
+    "supportedFormats": "Supports JPG, PNG, WebP",
+    "detectButton": "Detect Disease",
+    "processing": "Analyzing your plant...",
+    "noImage": "Please upload an image first"
+  },
+  "results": {
+    "diseaseDetected": "Disease Detected",
+    "plantDetected": "Plant Detected",
+    "diseaseName": "Disease Name",
+    "confidence": "Confidence",
+    "recoveryTime": "Estimated Recovery Time",
+    "solution": "Natural Solution",
+    "treatmentComparison": "Treatment Comparison: Organic vs Chemical",
+    "organicSolution": "Organic / Homemade Solution",
+    "chemicalSolution": "Chemical / Shop-Bought Solution",
+    "bestChoice": "Best Choice",
+    "recommendation": "Our Recommendation",
+    "prevention": "Prevention Tips",
+    "whyItWorks": "Why this works?",
+    "detectAnother": "Detect Another Plant"
+  },
+  "diseases": {
+    "lateBlight": {
+      "plantName": "Tomato / Potato",
+      "name": "Late Blight",
+      "recoveryDays": "10–14 days with organic treatment",
+      "organicSolution": "Mix 100g neem cake + 50g cow dung compost in 5L water. Let it sit overnight. Spray on leaves every 5 days. Add 1 tablespoon buttermilk for stronger antifungal effect.",
+      "organicWhy": "Neem has azadirachtin which inhibits spore germination. Cow dung compost adds beneficial microbes. Buttermilk produces lactic acid bacteria that outcompete the blight pathogen.",
+      "chemicalSolution": "Spray Mancozeb 75% WP (2.5g per litre) or Metalaxyl+Mancozeb (2.5g per litre) every 7 days.",
+      "chemicalWhy": "Mancozeb is a contact fungicide that prevents spore germination. Metalaxyl is systemic and stops pathogen from inside the plant tissue.",
+      "bestChoice": "organic",
+      "recommendation": "Organic neem + compost spray is recommended. It is safer for soil health, costs 90% less, and prevents recurrence by building plant immunity. Use chemical only if the disease has spread to more than 50% of the plant.",
+      "prevention": "Avoid watering leaves at night. Ensure good air circulation between plants. Remove infected leaves immediately. Apply preventive neem spray every 2 weeks during monsoon.",
+      "whyWorks": "Neem has antifungal properties that inhibit spore growth, while compost strengthens plant immunity."
+    },
+    "leafRust": {
+      "plantName": "Wheat / Barley",
+      "name": "Leaf Rust",
+      "recoveryDays": "7–10 days with organic treatment",
+      "organicSolution": "Apply 2 tablespoons baking soda + 1 teaspoon vegetable oil + 1 drop dish soap in 1 gallon water. Spray weekly on affected leaves. Add 5 crushed garlic cloves for stronger effect.",
+      "organicWhy": "Baking soda creates an alkaline surface that prevents rust spore germination. Garlic contains allicin, a natural antifungal. Oil helps the solution stick to leaves.",
+      "chemicalSolution": "Spray Propiconazole 25% EC (1ml per litre) or Sulphur 80% WP (3g per litre) every 10 days.",
+      "chemicalWhy": "Propiconazole is a systemic triazole fungicide that stops ergosterol synthesis in fungi. Sulphur acts as a protectant fungicide on leaf surface.",
+      "bestChoice": "organic",
+      "recommendation": "Baking soda + garlic spray is recommended for early-stage rust. It is safe for consumption crops and costs almost nothing. Use chemical fungicide only for severe outbreaks on commercial wheat fields.",
+      "prevention": "Remove infected leaves immediately. Maintain proper spacing between plants. Avoid excessive nitrogen fertilizer which promotes succulent growth susceptible to rust.",
+      "whyWorks": "Baking soda creates an alkaline environment that prevents fungal spore germination."
+    },
+    "powderyMildew": {
+      "plantName": "Cucumber / Squash / Melon",
+      "name": "Powdery Mildew",
+      "recoveryDays": "5–7 days with organic treatment",
+      "organicSolution": "Mix 1 part cow milk with 9 parts water. Spray on affected areas every 3 days. Add 1 teaspoon baking soda per litre for stubborn infections.",
+      "organicWhy": "Milk proteins (lactoferrin) have natural antiseptic properties. When exposed to sunlight, milk produces free radicals that kill the mildew fungus. Baking soda alters leaf surface pH.",
+      "chemicalSolution": "Spray Sulphur 80% WP (3g per litre) or Dinocap 48% EC (1ml per litre) every 7 days.",
+      "chemicalWhy": "Sulphur disrupts fungal energy production. Dinocap is a specific miticide/fungicide effective against powdery mildew on contact.",
+      "bestChoice": "organic",
+      "recommendation": "Milk spray is the best choice for powdery mildew. Studies show it is as effective as chemical fungicides, completely safe for edible crops, and costs nearly nothing. Use chemical only if milk spray fails after 3 applications.",
+      "prevention": "Ensure good sunlight exposure and avoid overcrowding. Water at the base, not on leaves. Grow resistant varieties when available.",
+      "whyWorks": "Milk proteins have antiseptic properties that combat fungal growth."
+    },
+    "bacterialSpot": {
+      "plantName": "Tomato / Pepper / Chili",
+      "name": "Bacterial Spot",
+      "recoveryDays": "14–21 days with organic treatment",
+      "organicSolution": "Mix 1 tablespoon copper sulphate (blue vitriol) + 1 tablespoon fresh lime in 10L water (Bordeaux mixture). Spray every 7 days. Add 5ml neem oil for enhanced protection.",
+      "organicWhy": "Bordeaux mixture is a traditional organic-approved treatment. Copper ions disrupt bacterial cell membranes. Lime neutralizes acidity to prevent leaf burn. Neem adds antifungal protection.",
+      "chemicalSolution": "Spray Streptomycin 0.1% (1g per litre) or Copper hydroxide 77% WP (2g per litre) every 7 days during humid weather.",
+      "chemicalWhy": "Streptomycin is an antibiotic that kills bacteria directly. Copper hydroxide releases copper ions that damage bacterial cell walls on contact.",
+      "bestChoice": "chemical",
+      "recommendation": "For bacterial spot, Bordeaux mixture (organic copper) is a good first choice. However, if infection is severe and spreading fast, Streptomycin gives faster control. Always follow with organic neem spray to rebuild plant immunity after chemical treatment.",
+      "prevention": "Use drip irrigation instead of sprinklers to keep leaves dry. Avoid working in the field when plants are wet. Disinfect tools between plants.",
+      "whyWorks": "Copper ions disrupt bacterial cell membranes, preventing infection spread."
+    },
+    "anthracnose": {
+      "plantName": "Mango / Chili / Beans",
+      "name": "Anthracnose",
+      "recoveryDays": "14–18 days with organic treatment",
+      "organicSolution": "Spray diluted neem oil (2 tablespoons in 1 gallon water + 1 teaspoon dish soap as emulsifier) on all plant surfaces weekly. Add 10g turmeric powder per litre for enhanced antifungal action.",
+      "organicWhy": "Neem oil contains azadirachtin which interferes with fungal life cycles. Turmeric contains curcumin, a powerful natural antifungal. Soap helps the oil spread and stick evenly on leaves.",
+      "chemicalSolution": "Spray Carbendazim 50% WP (1g per litre) or Chlorothalonil 75% WP (2g per litre) every 10 days.",
+      "chemicalWhy": "Carbendazim is a broad-spectrum systemic fungicide that stops fungal cell division. Chlorothalonil is a multi-site contact fungicide that prevents resistance development.",
+      "bestChoice": "organic",
+      "recommendation": "Neem + turmeric spray is recommended for anthracnose, especially on fruit trees like mango. It leaves no chemical residue on fruits and is safe for consumption the same day. Use chemical fungicide only for commercial crops with severe infection.",
+      "prevention": "Prune infected branches and sterilize tools between cuts. Remove fallen leaves and fruit. Ensure good drainage and avoid waterlogging around roots.",
+      "whyWorks": "Neem oil contains azadirachtin which interferes with fungal life cycles."
+    }
+  },
+  "features": {
+    "organic": "100% Organic",
+    "organicDesc": "Natural fertilizer solutions only",
+    "offline": "Works Offline",
+    "offlineDesc": "No internet connection required",
+    "languages": "Local Languages",
+    "languagesDesc": "Support for English, Hindi, and Kannada"
+  },
+  "footer": {
+    "offline": "No internet needed. Works offline.",
+    "powered": "Powered by traditional knowledge + AI"
+  }
+}

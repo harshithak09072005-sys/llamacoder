@@ -1,0 +1,1 @@
+streamlit run cropguard_ai.py
